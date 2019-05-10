@@ -1,7 +1,8 @@
 # Developed by: Moazzam Hossain
 
 # install lpSolveAPI
-install.packages("lpSolveAPI")
+if(!require(lpSolveAPI)){install.packages("lpSolveAPI")}
+
 # use libray
 library(lpSolveAPI)
 
